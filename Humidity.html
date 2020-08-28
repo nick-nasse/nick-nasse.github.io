@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Humidity</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<body>
+
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="LandingPage.html">Lattitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="MaxTemp.html">Max Temp</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Comparisons.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Data.html">Data</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    
+    
+<div class="container">
+    <section class="row">
+      <div class="col-sm-12 col-lg-8">
+        <article class="description-content">
+          <h1 class="description-header">Humidity</h1>
+          <hr/>
+          <img src="Resources/images/Fig2.png" class="img-fluid" alt="">
+          <p>Cities in the dataset experience humidity between 0% and 100%. There are a few cities in the 
+            Northern Hemisphere where the humidity is 0%. While there is no one-to-one association 
+            between the humidity and latitudes, there is a somewhat symmetrical distribution of 
+            cities in both hemispheres for humidity between 60% and 100%, and  between 20% and 60%.</p>
+        </article> 
+      </div>
+        
+        
+        <div class="col">
+            <article>
+                <div class="imageNav-content">
+                <h2 class="imageNav-header">Visualizations</h2>
+                <hr />
+                    <div id="images">
+                        <a href="MaxTemp.html"><img src="Resources/images/Fig1.png" class="imageNav-photo"></a>
+                        <a href="Humidity.html"><img src="Resources/images/Fig2.png" class="imageNav-photo active"></a>
+                        <a href="Cloudiness.html"><img src="Resources/images/Fig3.png" class="imageNav-photo"></a>
+                        <a href="WindSpeed.html"><img src="Resources/images/Fig4.png" class="imageNav-photo"></a> 
+                    </div>
+                </div>  <!-- imageNav content -->
+            
+            </article>
+        
+        </div>
+        
+    </section>
+  </div> 
+    
+    
+    
+
+    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  
+    
+</body>
+    
+</html>
